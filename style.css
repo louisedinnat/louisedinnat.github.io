@@ -1,0 +1,117 @@
+body{
+    background: rgb(13, 8, 39);
+    color:rgb(56, 51, 51);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.body-grid{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    /* grid-template-columns: repeat(8,1fr); */
+    grid-gap: 25px;
+   
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    align-items: center;
+    /* grid-template-columns: repeat(8,1fr); */
+    grid-gap: 25px;
+  
+}
+
+
+
+.header{
+    grid-row: span 4;
+    align-self: stretch;
+    background-color: #f1f1f1;
+    padding: 30px 35px;
+    text-decoration: none;
+    color: rgb(23, 13, 69);
+    /* position: sticky;
+    top:8px;*/
+    height:calc(100% - 16px); 
+
+ }
+
+.title{
+    position: sticky;
+    top:0;
+}
+
+.about{
+    position: sticky;
+    top:220px;
+    background-color: #f1f1f1;
+
+}
+
+.l{
+    margin-left: 20px; /* Assurez-vous que le contenu principal ne se superpose pas avec la colonne latérale */
+    padding:10px;
+    grid-column: span 2;
+    width: 330px;
+ 
+ 
+}
+
+.s{
+    margin-left: 20px; /* Assurez-vous que le contenu principal ne se superpose pas avec la colonne latérale */
+    padding: 10px;
+    grid-column: span 2;
+    width: 300px;
+    
+}
+.xs{
+    margin-left: 20px; /* Assurez-vous que le contenu principal ne se superpose pas avec la colonne latérale */
+    padding: 10px;
+    grid-column: span 2;
+    width: 250px;
+    
+}
+
+
+.title{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clip{
+    clip-path: polygon(48% -155px, 101.6% -274.32%, 48.8% 36%, -4px -269.61%)
+}
+
+.project{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    align-items: center;
+    /* grid-template-columns: repeat(8,1fr); */
+    grid-gap: 25px;
+
+}
+
+.xl{
+    margin-left: 20px; 
+    padding: 10px;
+    grid-column: span 6;
+    width: 600px;
+
+} 
+
+
+.m{
+    margin-left: 20px; 
+    padding: 10px;
+    grid-column: span 6;
+    width: 500px;
+
+} 
+
+
+
